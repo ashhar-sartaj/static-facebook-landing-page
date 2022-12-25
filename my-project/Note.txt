@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Facebook - Log In Or Sign Up </title>
+  </head>
+  <body class="main-section border-2 border-dashed border-box border-red-500 h-screen bg-gray-100 flex justify-center items-center">
+
+      <div class="container flex border-3 border-dotted w-9/12">
+        <div class="left border-solid border-2 border-black w-3/5 mr-10">
+          <div class="relative">
+            <img src="./src/images/logo.png">
+            <div><p class="text-xl absolute top-80">Facebook helps you connect and share with the people in your life</p></div>
+          </div>
+        </div>
+        <div class="right border-solid border-2 border-black flex flex-col bg-white p-5 w-2/5 rounded-mg">
+          
+          <input type="text" placeholder="Email address or Phone number" class="px-4 my-2 h-10 border-2 border-gray-100 rounded-xl">
+          <input type="password" placeholder="Password" class="px-4 my-2 h-10 border-2 border-gray-100 rounded-xl">
+          <button class="bg-blue-600 text-white py-2 rounded-md font-bold text-lg hover:cursor-pointer hover:bg-blue-700">Log In</button>
+          <span class="text-center text-blue-600 text-sm my-2 hover:cursor-pointer hover:underline">Forgotton Password</span>
+          <hr class="my-2">
+          <button class="bg-green-600 hover:bg-green-700 text-white py-2 px-3 mx-auto rounded-md font-bold text-lg my-2 w-fit">Create New Account</button>
+        </div>
+      </div>
+    
+  </body>
+</html>
